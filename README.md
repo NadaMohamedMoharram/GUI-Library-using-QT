@@ -30,10 +30,29 @@ The system supports two types of users, stored in a SQLite database:
 - User (username: `user`, password: `userpass`)
 
 ## Memento Pattern
--The system uses the Memento design pattern to save and restore the last logged-in user's credentials.
+The system uses the Memento design pattern to save and restore the last logged-in user's credentials.
 
 ## JSON Database
 Books are stored in a JSON file (book_db.json), making it easy to manage and update the collection.
+
+## Usage
+Login:
+
+Enter your username and password to login.
+Admins can add, search, filter, and remove books.
+Users can only search and filter books.
+Add a New Book (Admin Only):
+
+Enter the book's title, author, category, and barcode.
+Remove a Book (Admin Only):
+
+Enter the title of the book to remove it from the collection.
+Search for a Book:
+
+Enter the title of the book to search for it in the collection.
+Filter by Category:
+
+Enter the category to filter and view books in that category.
 
 ## Installation
 
