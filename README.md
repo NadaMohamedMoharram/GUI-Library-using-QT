@@ -41,16 +41,16 @@ Books are stored in a JSON file (book_db.json), making it easy to manage and upd
   - Admins can add, search, filter, and remove books.
   - Users can only search and filter books.
 
-- **Add a New Book (Admin Only):
+- **Add a New Book (Admin Only):**
 Enter the book's title, author, category, and barcode.
 
-- **Remove a Book (Admin Only):
+- **Remove a Book (Admin Only):**
 Enter the title of the book to remove it from the collection.
 
-- **Search for a Book:
+- **Search for a Book:**
 Enter the title of the book to search for it in the collection.
 
-- **Filter by Category:
+- **Filter by Category:**
 Enter the category to filter and view books in that category.
 
 ## Installation
