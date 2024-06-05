@@ -29,6 +29,12 @@ The system supports two types of users, stored in a SQLite database:
 - Admin (username: `admin`, password: `adminpass`)
 - User (username: `user`, password: `userpass`)
 
+## Memento Pattern
+-The system uses the Memento design pattern to save and restore the last logged-in user's credentials.
+
+## JSON Database
+Books are stored in a JSON file (book_db.json), making it easy to manage and update the collection.
+
 ## Installation
 
 1. Clone the repository:
